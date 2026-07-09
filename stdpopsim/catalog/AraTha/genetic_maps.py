@@ -27,7 +27,6 @@ class _AraThaGeneticMap(stdpopsim.GeneticMap):
         )
 
 
-# Here, we use `_AraThaGeneticMap` in place of `stdpopsim.GeneticMap`
 _gm = _AraThaGeneticMap(
     species=_species,
     id="SalomeAveraged_TAIR10",  # ID for genetic map, see naming conventions
