@@ -55,6 +55,12 @@ _genome = stdpopsim.Genome.from_data(
             reasons={stdpopsim.CiteReason.REC_RATE},
         ),
         stdpopsim.Citation(
+            doi="https://doi.org/10.1371/journal.pgen.1000843",
+            author="Platt et al.",
+            year=2010,
+            reasons={stdpopsim.CiteReason.REC_RATE},
+        ),
+        stdpopsim.Citation(
             doi="https://doi.org/10.1093/nar/gkm965",
             year=2007,
             author="Swarbreck et al.",

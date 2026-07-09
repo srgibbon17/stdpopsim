@@ -11,6 +11,10 @@ Upcoming
 - The 'positive' and 'negative' proportions were swapped in the PosNeg_R24 DFE.
     (:user:`bhaller`, :user:`petrelharp`, :pr:`1736`)
 
+- The recombination rates and rate map for AraTha have been updated to
+    include an adjustment for selfing.
+    (:user:`srgibbon17`, :pr:`1855`)
+
 **Breaking changes**:
 
 - Species now have a `separate_sexes` property, which is used by the SLiM engine
