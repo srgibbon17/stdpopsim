@@ -13,7 +13,8 @@ Upcoming
 
 - The recombination rates and rate map for AraTha have been updated to
     include an adjustment for selfing.
-    (:user:`srgibbon17`, :pr:`1855`)
+    (:user:`srgibbon17`, :user:`peterelharp`, :pr:`1855`)
+  QC'd by :user:`silastittes`, :pr:`1856`
 
 **Breaking changes**:
 
