@@ -11,7 +11,8 @@ _selfing_correction = 1 - _sigma / (2 - _sigma)
 
 # Mean recombination rates were calculated from the Salome2012 map for F2
 # populations by taking a weighted average over non-missing windows,
-# using `msprime.RateMap.mean_rate` .
+# using `msprime.RateMap.mean_rate` . This was done using the uncorrected
+# map returned by stdpopsim through version 0.3.0.
 _recombination_rate = {
     "1": 3.5104764967290516e-08 * _selfing_correction,
     "2": 3.8175441963038173e-08 * _selfing_correction,
