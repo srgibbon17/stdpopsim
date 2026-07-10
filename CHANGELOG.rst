@@ -12,7 +12,9 @@ Upcoming
     (:user:`bhaller`, :user:`petrelharp`, :pr:`1736`)
 
 - The recombination rates and rate map for AraTha have been updated to
-    include an adjustment for selfing.
+    include an adjustment for selfing, making them about 5.8% of their previous
+    values. The recombination map used was estimated from F2s and so would
+    overestimate long-term recombination in a selfing population.
     (:user:`srgibbon17`, :user:`peterelharp`, :pr:`1855`)
     QC'd by :user:`silastittes`, :pr:`1856`
 
